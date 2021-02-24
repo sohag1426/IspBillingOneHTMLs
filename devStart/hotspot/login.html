@@ -176,12 +176,13 @@
     <script type="text/javascript" src="/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script type="text/javascript" src="/adminlte/js/adminlte.min.js"></script>
     <script>
+	
         $(document).ready(function () {
             let userAgentString = navigator.userAgent;
             if (userAgentString.indexOf('wv') > -1) {
                 $('#ModalInstruction').modal({
                     backdrop: 'static',
-                    show: true
+                    show: false
                 });
             }
         });
